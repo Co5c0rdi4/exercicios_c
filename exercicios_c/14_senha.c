@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
-
+//Testa uma senha.
 int main() {
     setlocale(LC_ALL, "Portuguese_Brazil");
 
@@ -19,3 +19,4 @@ int main() {
 
     return 0;
 }
+
