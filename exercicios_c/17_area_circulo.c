@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
-
+//Calcula a Ã¡rea de um raio testando se Ã© maior que 0.
 int main() {
     setlocale(LC_ALL, "Portuguese_Brazil");
 
@@ -10,13 +10,14 @@ int main() {
     scanf("%f", &r);
 
     if (r<0){
-        printf("\nNão é possível realizar esse cálculo.");
+        printf("\nNÃ£o Ã© possÃ­vel realizar esse cÃ¡lculo.");
     }
     else {
        float a = pi*(r*r);
 
-    printf("\nA área desse círculo é igual a %.2f", a);
+    printf("\nA Ã¡rea desse cÃ­rculo Ã© igual a %.2f", a);
     }
 
     return 0;
 }
+
