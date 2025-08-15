@@ -1,23 +1,24 @@
 #include <stdio.h>
 #include <locale.h>
-
+//Recebe trÃªs nÃºmeros quaisquer e calcula a mÃ©dia aritmÃ©tica entre eles.
 int main() {
     setlocale (LC_ALL, "Portuguese_Brazil");
 
     int num1, num2, num3;
 
-    printf("\nDigite o primeiro número: ");
+    printf("\nDigite o primeiro nÃºmero: ");
     scanf("%d", &num1);
 
-    printf("\nDigite o segundo número: ");
+    printf("\nDigite o segundo nÃºmero: ");
     scanf("%d", &num2);
 
-    printf("\nDigite o terceiro número: ");
+    printf("\nDigite o terceiro nÃºmero: ");
     scanf("%d", &num3);
 
     float media = (float)(num1+num2+num3)/3;
 
-    printf("\nA média entre %d, %d e %d é %.2f", num1, num2, num3, media);
+    printf("\nA mÃ©dia entre %d, %d e %d Ã© %.2f", num1, num2, num3, media);
 
     return 0;
 }
+
