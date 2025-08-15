@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <locale.h>
-
+//Informa a Ã¡rea de uma sala, dadas as medidas.
 int main() {
     setlocale(LC_ALL, "Portuguese_Brazil");
 
     float b, h;
 
-    printf("Calculando a área de uma sala.\n\n");
+    printf("Calculando a Ã¡rea de uma sala.\n\n");
     printf("Informe o valor da base em metros: ");
     scanf("%f", &b);
     printf("\nInforme o valor da altura em metros: ");
@@ -14,7 +14,8 @@ int main() {
 
     float a = b * h;
 
-    printf("A área dessa sala é %.2f metros.", a);
+    printf("A Ã¡rea dessa sala Ã© %.2f metros.", a);
 
     return 0;
 }
+
