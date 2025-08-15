@@ -1,18 +1,19 @@
 #include <stdio.h>
 #include <locale.h>
-
+//Recebe um nÃºemro qualquer e mostra o seu dobro.
 int main() {
     setlocale(LC_ALL, "Portuguese_Brazil");
 
     float num;
 
-    printf("Programa que recebe um número qualquer e exibe seu dobro.\n\n");
-    printf("Digite um número qualquer: ");
+    printf("Programa que recebe um nÃºmero qualquer e exibe seu dobro.\n\n");
+    printf("Digite um nÃºmero qualquer: ");
     scanf("%f", &num);
 
     float dobro = num * 2;
 
-    printf("\nO dobro de %.2f é %.2f", num, dobro);
+    printf("\nO dobro de %.2f Ã© %.2f", num, dobro);
 
     return 0;
 }
+
