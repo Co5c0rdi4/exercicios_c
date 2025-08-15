@@ -1,21 +1,22 @@
 #include <stdio.h>
 #include <locale.h>
-
+//Recebe trÃªs nÃºmeros quaisquer e os exibe na ordem inversa.
 int main() {
     setlocale(LC_ALL, "Portuguese_Brazil");
 
     int n1, n2, n3;
 
-    printf("\nDigite o primeiro número: ");
+    printf("\nDigite o primeiro nÃºmero: ");
     scanf("%d", &n1);
 
-    printf("\nDigite o segundo número: ");
+    printf("\nDigite o segundo nÃºmero: ");
     scanf("%d", &n2);
 
-    printf("\nDigite o terceiro número: ");
+    printf("\nDigite o terceiro nÃºmero: ");
     scanf("%d", &n3);
 
     printf("\n%d %d %d", n3, n2, n1);
 
     return 0;
 }
+
