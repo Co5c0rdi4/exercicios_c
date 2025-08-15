@@ -1,5 +1,5 @@
 #include <stdio.h>
-//Desenha uma árvore de natal na tela usando "*"
+//Desenha uma árvore de natal na tela usando "*".
 int main() {
     printf("     *\n");
     printf("    ***\n");
@@ -12,4 +12,5 @@ int main() {
 
     return 0;
 }
+
 
