@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
-
+//Informa a categoria de um jogador entre infantil, juvenil ou sênior conforme sua idade.
 int main() {
     setlocale(LC_ALL,"Portuguese_Brazil");
 
@@ -18,6 +18,7 @@ int main() {
         }
     }
     else {
-        printf("\nS�nior");
+        printf("\nSênior");
     }
 }
+
