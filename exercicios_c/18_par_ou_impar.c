@@ -1,20 +1,21 @@
 #include <stdio.h>
 #include <locale.h>
-
+//Recebe um nÃºmero inteiro qualquer e informa se ele Ã© par ou Ã­mpar.
 int main() {
     setlocale(LC_ALL, "Portuguese_Brazil");
 
     int num;
 
-    printf("\nDigite o número: ");
+    printf("\nDigite o nÃºmero: ");
     scanf("%d", &num);
 
     if (num%2==0){
-        printf("\nO número é par!");
+        printf("\nO nÃºmero Ã© par!");
     }
     else {
-        printf("\nO número é ímpar!");
+        printf("\nO nÃºmero Ã© Ã­mpar!");
     }
 
     return 0;
 }
+
