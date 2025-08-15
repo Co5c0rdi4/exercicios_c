@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
-
+//Imprime na tela a tabuada do 5.
 int main() {
     setlocale(LC_ALL, "Portuguese_Brazil");
 
@@ -20,3 +20,4 @@ int main() {
 
     return 0;
 }
+
