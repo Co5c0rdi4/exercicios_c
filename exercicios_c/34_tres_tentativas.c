@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 #include <stdlib.h>
-
+//Testa uma senha com três tentativas, em caso de três erros bloqueia o cartão.
 int main() {
     setlocale(LC_ALL, "Portuguese_Brazil");
 
@@ -20,7 +20,8 @@ int main() {
             printf("\nSenha incorreta!\n");
         }
     }
-    printf("\nAcesso negado! seu cart�o foi bloqueado, procure a unidade mais pr�xima.\n");
+    printf("\nAcesso negado! seu cartão foi bloqueado, procure a unidade mais próxima.\n");
 
     return 0;
 }
+
